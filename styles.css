@@ -12,18 +12,35 @@ main {
   justify-content: space-around;
 }
 
+button {
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
-  width: 320px;
-  height: 320px;
+  width: 500px;
+  height: 500px;
   border: 1px solid #000;
   border: solid 10px grey;
   background-color: white;
+  border-radius: 10px;
 }
 
 .grid-item {
-  flex: 0 0 20px; 
+  flex: 0 0 31.25px; 
   border: 1px solid #ddd;
   box-sizing: border-box; 
 }
