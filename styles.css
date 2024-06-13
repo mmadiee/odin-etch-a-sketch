@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 320px;
+  border: 1px solid #000;
+  border: solid 10px grey;
+  background-color: white;
+}
+
+.grid-item {
+  flex: 0 0 20px; 
+  border: 1px solid #ddd;
+  box-sizing: border-box; 
+}
